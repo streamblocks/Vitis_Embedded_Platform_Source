@@ -68,16 +68,11 @@ IMAGE_INSTALL_append = " packagegroup-petalinux-v4lutils"
 IMAGE_INSTALL_append = " packagegroup-petalinux-96boards-sensors"
 IMAGE_INSTALL_append = " packagegroup-petalinux-x11"
 IMAGE_INSTALL_append = " packagegroup-petalinux-matchbox"
+IMAGE_INSTALL_append = " packagegroup-core-buildessential"
 IMAGE_INSTALL_append = " nano"
 
 IMAGE_INSTALL_append = " iperf3"
 IMAGE_INSTALL_append = " bonnie++"
-
-
-
-# Bluetooth stack
-IMAGE_INSTALL_append = " bluez5"
-
 
 # StreamBlocks
 IMAGE_INSTALL_append = " libsdl2"

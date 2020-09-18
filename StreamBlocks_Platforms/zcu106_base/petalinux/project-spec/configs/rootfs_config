@@ -344,7 +344,7 @@ CONFIG_mtd-utils=y
 #
 # usbutils 
 #
-# CONFIG_usbutils is not set
+CONFIG_usbutils=y
 # CONFIG_usbutils-dev is not set
 # CONFIG_usbutils-dbg is not set
 
@@ -733,7 +733,7 @@ CONFIG_openssh-sftp-server=y
 #
 # git 
 #
-# CONFIG_git is not set
+CONFIG_git=y
 # CONFIG_git-bash-completion is not set
 # CONFIG_git-perltools is not set
 # CONFIG_gitweb is not set
@@ -1911,10 +1911,10 @@ CONFIG_run-postinsts=y
 #
 # libxml2 
 #
-# CONFIG_libxml2 is not set
+CONFIG_libxml2=y
 # CONFIG_libxml2-python is not set
 # CONFIG_libxml2-dbg is not set
-# CONFIG_libxml2-dev is not set
+CONFIG_libxml2-dev=y
 
 #
 # libxmu 
@@ -2229,14 +2229,14 @@ CONFIG_run-postinsts=y
 #
 # xrt
 #
-# CONFIG_xrt is not set
-# CONFIG_xrt-dev is not set
+CONFIG_xrt=y
+CONFIG_xrt-dev=y
 # CONFIG_xrt-dbg is not set
 
 #
 # zocl
 #
-# CONFIG_zocl is not set
+CONFIG_zocl=y
 # CONFIG_zocl-dev is not set
 # CONFIG_zocl-dbg is not set
 
@@ -2356,7 +2356,7 @@ CONFIG_run-postinsts=y
 #
 # coreutils 
 #
-# CONFIG_coreutils is not set
+CONFIG_coreutils=y
 # CONFIG_coreutils-dbg is not set
 # CONFIG_coreutils-dev is not set
 
@@ -2755,9 +2755,9 @@ CONFIG_packagegroup-core-boot=y
 #
 # packagegroup-core-buildessential 
 #
-# CONFIG_packagegroup-core-buildessential is not set
+CONFIG_packagegroup-core-buildessential=y
 # CONFIG_packagegroup-core-buildessential-dbg is not set
-# CONFIG_packagegroup-core-buildessential-dev is not set
+CONFIG_packagegroup-core-buildessential-dev=y
 
 #
 # packagegroup-core-sdk 
@@ -3093,7 +3093,6 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 # CONFIG_qtsensors-mkspecs is not set
 # CONFIG_qtsensors-plugins is not set
 # CONFIG_qtsensors-dbg is not set
-# CONFIG_qtsensors-examples-dev is not set
 # CONFIG_qtsensors-dev is not set
 
 #
@@ -3142,7 +3141,6 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 #
 # CONFIG_qttranslations is not set
 # CONFIG_qttranslations-qtwebengine is not set
-# CONFIG_qttranslations-qtquick1 is not set
 # CONFIG_qttranslations-qthelp is not set
 # CONFIG_qttranslations-qtbase is not set
 # CONFIG_qttranslations-dbg is not set
@@ -3154,7 +3152,6 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 # CONFIG_qttranslations-linguist is not set
 # CONFIG_qttranslations-qtserialport is not set
 # CONFIG_qttranslations-qtmultimedia is not set
-# CONFIG_qttranslations-qt is not set
 # CONFIG_qttranslations-qtconnectivity is not set
 # CONFIG_qttranslations-qtlocation is not set
 # CONFIG_qttranslations-qtxmlpatterns is not set
@@ -3883,7 +3880,6 @@ CONFIG_libdrm-kms=y
 #
 # libpthread-stubs 
 #
-# CONFIG_libpthread-stubs is not set
 # CONFIG_libpthread-stubs-dbg is not set
 # CONFIG_libpthread-stubs-dev is not set
 
@@ -4060,9 +4056,9 @@ CONFIG_libdrm-kms=y
 #
 # packagegroup-petalinux 
 #
-# CONFIG_packagegroup-petalinux is not set
+CONFIG_packagegroup-petalinux=y
 # CONFIG_packagegroup-petalinux-dbg is not set
-# CONFIG_packagegroup-petalinux-dev is not set
+CONFIG_packagegroup-petalinux-dev=y
 
 #
 # packagegroup-petalinux-audio 
@@ -4116,9 +4112,9 @@ CONFIG_packagegroup-petalinux-matchbox=y
 #
 # packagegroup-petalinux-multimedia 
 #
-# CONFIG_packagegroup-petalinux-multimedia is not set
+CONFIG_packagegroup-petalinux-multimedia=y
 # CONFIG_packagegroup-petalinux-multimedia-dbg is not set
-# CONFIG_packagegroup-petalinux-multimedia-dev is not set
+CONFIG_packagegroup-petalinux-multimedia-dev=y
 
 #
 # packagegroup-petalinux-networking-debug
@@ -4144,7 +4140,7 @@ CONFIG_packagegroup-petalinux-matchbox=y
 #
 # packagegroup-petalinux-opencv 
 #
-# CONFIG_packagegroup-petalinux-opencv is not set
+CONFIG_packagegroup-petalinux-opencv=y
 # CONFIG_packagegroup-petalinux-opencv-dev is not set
 # CONFIG_packagegroup-petalinux-opencv-dbg is not set
 
@@ -4180,7 +4176,7 @@ CONFIG_packagegroup-petalinux-matchbox=y
 #
 # packagegroup-petalinux-utils 
 #
-# CONFIG_packagegroup-petalinux-utils is not set
+CONFIG_packagegroup-petalinux-utils=y
 # CONFIG_packagegroup-petalinux-utils-dbg is not set
 # CONFIG_packagegroup-petalinux-utils-dev is not set
 
@@ -4225,6 +4221,7 @@ CONFIG_imagefeature-hwcodecs=y
 # apps 
 #
 # CONFIG_gpio-demo is not set
+CONFIG_mnt-sd=y
 # CONFIG_peekpoke is not set
 
 #
@@ -4232,16 +4229,11 @@ CONFIG_imagefeature-hwcodecs=y
 #
 CONFIG_gstreamer-vcu-examples=y
 # CONFIG_gstreamer-vcu-notebooks is not set
+CONFIG_opencl-clhpp-dev=y
+CONFIG_opencl-headers-dev=y
 
 #
 # PetaLinux RootFS Settings
 #
 CONFIG_ROOTFS_ROOT_PASSWD="root"
 CONFIG_ADD_EXTRA_USERS=""
-CONFIG_xrt=y
-CONFIG_mnt-sd=y
-CONFIG_xrt-dev=y
-CONFIG_zocl=y
-CONFIG_opencl-headers-dev=y
-CONFIG_opencl-clhpp-dev=y
-CONFIG_packagegroup-petalinux-opencv=y
