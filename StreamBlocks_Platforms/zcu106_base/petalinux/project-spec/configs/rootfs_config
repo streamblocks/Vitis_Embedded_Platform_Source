@@ -111,7 +111,7 @@ CONFIG_system-zynqmp=y
 #
 # dnf
 #
-# CONFIG_dnf is not set
+CONFIG_dnf=y
 
 #
 # e2fsprogs 
@@ -120,7 +120,7 @@ CONFIG_system-zynqmp=y
 # CONFIG_e2fsprogs-dev is not set
 # CONFIG_e2fsprogs-mke2fs is not set
 # CONFIG_e2fsprogs-dbg is not set
-# CONFIG_e2fsprogs-resize2fs is not set
+CONFIG_e2fsprogs-resize2fs=y
 # CONFIG_e2fsprogs-tune2fs is not set
 # CONFIG_libss is not set
 # CONFIG_libcomerr is not set
@@ -579,7 +579,7 @@ CONFIG_openssh-sftp-server=y
 #
 # rsync 
 #
-# CONFIG_rsync is not set
+CONFIG_rsync=y
 # CONFIG_rsync-dev is not set
 # CONFIG_rsync-dbg is not set
 
@@ -619,7 +619,7 @@ CONFIG_openssh-sftp-server=y
 #
 # parted 
 #
-# CONFIG_parted is not set
+CONFIG_parted=y
 # CONFIG_parted-dev is not set
 # CONFIG_parted-dbg is not set
 
@@ -776,8 +776,8 @@ CONFIG_openssh-sftp-server=y
 #
 # gzip 
 #
-# CONFIG_gzip is not set
-# CONFIG_gzip-dev is not set
+CONFIG_gzip=y
+CONFIG_gzip-dev=y
 # CONFIG_gzip-dbg is not set
 
 #
@@ -791,7 +791,7 @@ CONFIG_openssh-sftp-server=y
 #
 # less 
 #
-# CONFIG_less is not set
+CONFIG_less=y
 # CONFIG_less-dbg is not set
 # CONFIG_less-dev is not set
 
@@ -907,20 +907,20 @@ CONFIG_pciutils=y
 #
 # vim 
 #
-# CONFIG_vim is not set
+CONFIG_vim=y
 # CONFIG_vim-help is not set
 # CONFIG_vim-dbg is not set
 # CONFIG_vim-vimrc is not set
 # CONFIG_vim-dev is not set
 # CONFIG_vim-tutor is not set
-# CONFIG_vim-tools is not set
-# CONFIG_vim-common is not set
-# CONFIG_vim-syntax is not set
+CONFIG_vim-tools=y
+CONFIG_vim-common=y
+CONFIG_vim-syntax=y
 
 #
 # zip 
 #
-# CONFIG_zip is not set
+CONFIG_zip=y
 # CONFIG_zip-dev is not set
 # CONFIG_zip-dbg is not set
 
@@ -1645,9 +1645,13 @@ CONFIG_run-postinsts=y
 #
 # libmali-xlnx 
 #
-# CONFIG_libmali-xlnx is not set
+CONFIG_libmali-xlnx=y
 # CONFIG_libmali-xlnx-dbg is not set
 # CONFIG_libmali-xlnx-dev is not set
+# CONFIG_mali-backend-fbdev is not set
+# CONFIG_mali-backend-headless is not set
+# CONFIG_mali-backend-wayland is not set
+CONFIG_mali-backend-x11=y
 
 #
 # libmetal 
@@ -2053,7 +2057,7 @@ CONFIG_run-postinsts=y
 #
 # ncurses 
 #
-# CONFIG_ncurses is not set
+CONFIG_ncurses=y
 # CONFIG_ncurses-terminfo is not set
 # CONFIG_ncurses-dev is not set
 # CONFIG_ncurses-terminfo-base is not set
@@ -2222,26 +2226,26 @@ CONFIG_run-postinsts=y
 #
 # xrt
 #
-# CONFIG_xrt is not set
-# CONFIG_xrt-dev is not set
+CONFIG_xrt=y
+CONFIG_xrt-dev=y
 # CONFIG_xrt-dbg is not set
 
 #
 # zocl
 #
-# CONFIG_zocl is not set
+CONFIG_zocl=y
 # CONFIG_zocl-dev is not set
 # CONFIG_zocl-dbg is not set
 
 #
 # opencl-clhpp
 #
-# CONFIG_opencl-clhpp is not set
+CONFIG_opencl-clhpp=y
 
 #
 # opencl-headers
 #
-# CONFIG_opencl-headers is not set
+CONFIG_opencl-headers=y
 
 #
 # protobuf
@@ -2450,9 +2454,9 @@ CONFIG_udev-extraconf=y
 #
 # gdb 
 #
-# CONFIG_gdb is not set
+CONFIG_gdb=y
 # CONFIG_gdb-dev is not set
-# CONFIG_gdbserver is not set
+CONFIG_gdbserver=y
 # CONFIG_gdb-dbg is not set
 
 #
@@ -2746,7 +2750,7 @@ CONFIG_packagegroup-core-boot=y
 #
 # packagegroup-core-buildessential 
 #
-# CONFIG_packagegroup-core-buildessential is not set
+CONFIG_packagegroup-core-buildessential=y
 # CONFIG_packagegroup-core-buildessential-dbg is not set
 # CONFIG_packagegroup-core-buildessential-dev is not set
 
@@ -2841,7 +2845,7 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 #
 # perf 
 #
-# CONFIG_perf is not set
+CONFIG_perf=y
 # CONFIG_perf-python is not set
 # CONFIG_perf-dbg is not set
 # CONFIG_perf-dev is not set
@@ -2857,7 +2861,7 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 #
 # powertop 
 #
-# CONFIG_powertop is not set
+CONFIG_powertop=y
 # CONFIG_powertop-dbg is not set
 # CONFIG_powertop-dev is not set
 
@@ -4123,7 +4127,7 @@ CONFIG_packagegroup-petalinux-matchbox=y
 #
 # packagegroup-petalinux-opencv 
 #
-# CONFIG_packagegroup-petalinux-opencv is not set
+CONFIG_packagegroup-petalinux-opencv=y
 # CONFIG_packagegroup-petalinux-opencv-dev is not set
 # CONFIG_packagegroup-petalinux-opencv-dbg is not set
 
@@ -4173,14 +4177,14 @@ CONFIG_packagegroup-petalinux-v4lutils=y
 #
 # packagegroup-petalinux-vitisai 
 #
-# CONFIG_packagegroup-petalinux-vitisai is not set
+CONFIG_packagegroup-petalinux-vitisai=y
 # CONFIG_packagegroup-petalinux-vitisai-dbg is not set
 # CONFIG_packagegroup-petalinux-vitisai-dev is not set
 
 #
 # packagegroup-petalinux-weston 
 #
-# CONFIG_packagegroup-petalinux-weston is not set
+CONFIG_packagegroup-petalinux-weston=y
 # CONFIG_packagegroup-petalinux-weston-dbg is not set
 # CONFIG_packagegroup-petalinux-weston-dev is not set
 
@@ -4211,9 +4215,10 @@ CONFIG_packagegroup-petalinux-x11=y
 CONFIG_imagefeature-ssh-server-dropbear=y
 # CONFIG_imagefeature-ssh-server-openssh is not set
 CONFIG_imagefeature-hwcodecs=y
-# CONFIG_imagefeature-package-management is not set
+CONFIG_imagefeature-package-management=y
+CONFIG_package-feed-uris="http://petalinux.xilinx.com/sswreleases/rel-v2020/feeds/zynqmp-generic"
 CONFIG_imagefeature-debug-tweaks=y
-# CONFIG_auto-login is not set
+CONFIG_auto-login=y
 
 #
 # apps 
@@ -4224,8 +4229,16 @@ CONFIG_imagefeature-debug-tweaks=y
 #
 # user packages 
 #
+# CONFIG_libsdl2 is not set
+# CONFIG_cmake is not set
 CONFIG_gstreamer-vcu-examples=y
 # CONFIG_gstreamer-vcu-notebooks is not set
+# CONFIG_htop is not set
+# CONFIG_iperf3 is not set
+# CONFIG_nano is not set
+# CONFIG_opencl-clhpp-dev is not set
+# CONFIG_opencl-headers-dev is not set
+# CONFIG_packagegroup-base-extended is not set
 
 #
 # PetaLinux RootFS Settings
