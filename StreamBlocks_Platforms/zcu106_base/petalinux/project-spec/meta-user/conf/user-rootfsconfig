@@ -19,4 +19,5 @@ CONFIG_cmake
 CONFIG_nano
 CONFIG_iperf3
 CONFIG_libsdl2
+CONFIG_libsdl2-dev
 CONFIG_htop

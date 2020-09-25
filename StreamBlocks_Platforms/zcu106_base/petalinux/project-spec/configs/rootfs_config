@@ -1922,10 +1922,10 @@ CONFIG_mali-backend-x11=y
 #
 # libxml2 
 #
-# CONFIG_libxml2 is not set
+CONFIG_libxml2=y
 # CONFIG_libxml2-python is not set
 # CONFIG_libxml2-dbg is not set
-# CONFIG_libxml2-dev is not set
+CONFIG_libxml2-dev=y
 
 #
 # libxmu 
@@ -4078,7 +4078,7 @@ CONFIG_packagegroup-petalinux-gstreamer=y
 #
 # packagegroup-petalinux-matchbox 
 #
-CONFIG_packagegroup-petalinux-matchbox=y
+# CONFIG_packagegroup-petalinux-matchbox is not set
 # CONFIG_packagegroup-petalinux-matchbox-dbg is not set
 # CONFIG_packagegroup-petalinux-matchbox-dev is not set
 
@@ -4191,7 +4191,7 @@ CONFIG_packagegroup-petalinux-weston=y
 #
 # packagegroup-petalinux-x11 
 #
-CONFIG_packagegroup-petalinux-x11=y
+# CONFIG_packagegroup-petalinux-x11 is not set
 # CONFIG_packagegroup-petalinux-x11-dev is not set
 # CONFIG_packagegroup-petalinux-x11-dbg is not set
 
@@ -4229,16 +4229,17 @@ CONFIG_auto-login=y
 #
 # user packages 
 #
-# CONFIG_libsdl2 is not set
-# CONFIG_cmake is not set
+CONFIG_libsdl2=y
+CONFIG_libsdl2-dev=y
+CONFIG_cmake=y
 CONFIG_gstreamer-vcu-examples=y
 # CONFIG_gstreamer-vcu-notebooks is not set
-# CONFIG_htop is not set
-# CONFIG_iperf3 is not set
-# CONFIG_nano is not set
-# CONFIG_opencl-clhpp-dev is not set
-# CONFIG_opencl-headers-dev is not set
-# CONFIG_packagegroup-base-extended is not set
+CONFIG_htop=y
+CONFIG_iperf3=y
+CONFIG_nano=y
+CONFIG_opencl-clhpp-dev=y
+CONFIG_opencl-headers-dev=y
+CONFIG_packagegroup-base-extended=y
 
 #
 # PetaLinux RootFS Settings
