@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="bd_pfm_dynamic_synth_1" LaunchPart="xczu9eg-ffvb1156-2-e" LaunchTime="1601492827">
+  <File Type="VDS-TIMINGSUMMARY" Name="pfm_dynamic_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="pfm_dynamic.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="pfm_dynamic_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="pfm_dynamic_utilization_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="pfm_dynamic_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="pfm_dynamic.tcl"/>
+  <File Type="REPORTS-TCL" Name="pfm_dynamic_reports.tcl"/>
+  <File Type="RDS-RDS" Name="pfm_dynamic.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="pfm_dynamic_drc_synth.rpt"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_pfm_dynamic">
+    <File Path="$PSRCDIR/sources_1/bd/pfm_dynamic/pfm_dynamic.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pfm_dynamic"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/bd/pfm_dynamic/pfm_dynamic.bd"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bd_pfm_dynamic">
+    <File Path="$PSRCDIR/sources_1/bd/pfm_dynamic/pfm_dynamic.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pfm_dynamic"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/bd/pfm_dynamic/pfm_dynamic.bd"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

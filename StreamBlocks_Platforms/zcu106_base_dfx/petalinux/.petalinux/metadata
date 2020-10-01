@@ -1,0 +1,6 @@
+PETALINUX_VER=2020.1
+VALIDATE_HW_CHKSUM=1
+HARDWARE_PATH=/scratch/bezati/git/streamblocks/Vitis_Embedded_Platform_Source/StreamBlocks_Platforms/zcu106_base/vivado/xilinx_zcu106_base_202010_1.xsa
+HARDWARE_CHECKSUM=82ca9b731875c27bfe6595168ff98c2c
+RFSCONFIG_CHKSUM=2068bcfa469d827169532f91fefb757d
+YOCTO_SDK=b034efc026f5f7d24a4732927cb62e43

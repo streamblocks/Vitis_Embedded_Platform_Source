@@ -1,0 +1,23 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+CONFIG_gpio-demo
+CONFIG_peekpoke
+CONFIG_gstreamer-vcu-examples
+CONFIG_packagegroup-petalinux-v4lutils
+CONFIG_packagegroup-petalinux-audio
+CONFIG_gstreamer-vcu-notebooks
+CONFIG_xrt
+CONFIG_xrt-dev
+CONFIG_zocl
+CONFIG_opencl-clhpp-dev
+CONFIG_opencl-headers-dev
+
+#StreamBlocks packages
+CONFIG_packagegroup-base-extended
+CONFIG_cmake
+CONFIG_nano
+CONFIG_iperf3
+CONFIG_libsdl2
+CONFIG_libsdl2-dev
+CONFIG_htop

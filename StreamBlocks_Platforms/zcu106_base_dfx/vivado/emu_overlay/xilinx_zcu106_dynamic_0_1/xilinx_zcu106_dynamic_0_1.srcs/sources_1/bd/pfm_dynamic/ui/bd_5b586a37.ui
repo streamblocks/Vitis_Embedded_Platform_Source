@@ -1,0 +1,110 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.887778",
+   "Default View_TopLeft":"-782,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port interconnect_aximm_ddrmem2_M00_AXI -pg 1 -lvl 6 -x 1800 -y 370 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem3_M00_AXI -pg 1 -lvl 6 -x 1800 -y 150 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem4_M00_AXI -pg 1 -lvl 6 -x 1800 -y 610 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem5_M00_AXI -pg 1 -lvl 6 -x 1800 -y 850 -defaultsOSRD
+preplace port regslice_control_userpf_M_AXI -pg 1 -lvl 0 -x 0 -y 1150 -defaultsOSRD
+preplace port regslice_data_hpm0fpd_M_AXI1 -pg 1 -lvl 0 -x 0 -y 910 -defaultsOSRD
+preplace port bscanid_en -pg 1 -lvl 0 -x 0 -y 1480 -defaultsOSRD
+preplace port capture -pg 1 -lvl 0 -x 0 -y 1500 -defaultsOSRD
+preplace port clkwiz_kernel2_clk_out1 -pg 1 -lvl 0 -x 0 -y 1170 -defaultsOSRD
+preplace port clkwiz_kernel2_locked -pg 1 -lvl 0 -x 0 -y 1250 -defaultsOSRD
+preplace port clkwiz_kernel3_clk_out -pg 1 -lvl 0 -x 0 -y 1270 -defaultsOSRD
+preplace port clkwiz_kernel4_clk_out -pg 1 -lvl 0 -x 0 -y 1290 -defaultsOSRD
+preplace port clkwiz_kernel5_clk_out -pg 1 -lvl 0 -x 0 -y 1310 -defaultsOSRD
+preplace port clkwiz_kernel6_clk_out -pg 1 -lvl 0 -x 0 -y 1330 -defaultsOSRD
+preplace port clkwiz_kernel_clk_out1 -pg 1 -lvl 0 -x 0 -y 1350 -defaultsOSRD
+preplace port clkwiz_kernel_locked -pg 1 -lvl 0 -x 0 -y 1370 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -lvl 0 -x 0 -y 1390 -defaultsOSRD
+preplace port clkwiz_sysclks_locked -pg 1 -lvl 0 -x 0 -y 1410 -defaultsOSRD
+preplace port drck -pg 1 -lvl 0 -x 0 -y 1520 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 1540 -defaultsOSRD
+preplace port runtest -pg 1 -lvl 0 -x 0 -y 1560 -defaultsOSRD
+preplace port sel -pg 1 -lvl 0 -x 0 -y 1580 -defaultsOSRD
+preplace port shift -pg 1 -lvl 0 -x 0 -y 1600 -defaultsOSRD
+preplace port tck -pg 1 -lvl 0 -x 0 -y 1620 -defaultsOSRD
+preplace port tdi -pg 1 -lvl 0 -x 0 -y 1640 -defaultsOSRD
+preplace port tdo -pg 1 -lvl 6 -x 1800 -y 1780 -defaultsOSRD
+preplace port tms -pg 1 -lvl 0 -x 0 -y 1680 -defaultsOSRD
+preplace port update -pg 1 -lvl 0 -x 0 -y 1700 -defaultsOSRD
+preplace portBus pr_reset_n -pg 1 -lvl 0 -x 0 -y 1430 -defaultsOSRD
+preplace portBus xlconcat_interrupt_dout -pg 1 -lvl 6 -x 1800 -y 1370 -defaultsOSRD
+preplace inst axi_gpio_null -pg 1 -lvl 5 -x 1640 -y 1250 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1340 -y 590 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -x 1340 -y 830 -defaultsOSRD
+preplace inst axi_interconnect_hpm0fpd -pg 1 -lvl 3 -x 1030 -y 990 -defaultsOSRD
+preplace inst axi_mmu_2 -pg 1 -lvl 5 -x 1640 -y 370 -defaultsOSRD
+preplace inst axi_mmu_3 -pg 1 -lvl 5 -x 1640 -y 150 -defaultsOSRD
+preplace inst axi_mmu_4 -pg 1 -lvl 5 -x 1640 -y 610 -defaultsOSRD
+preplace inst axi_mmu_5 -pg 1 -lvl 5 -x 1640 -y 850 -defaultsOSRD
+preplace inst axi_register_slice_hpm0fpd -pg 1 -lvl 4 -x 1340 -y 1010 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 5 -x 1640 -y 1030 -defaultsOSRD
+preplace inst axi_vip_2 -pg 1 -lvl 3 -x 1030 -y 290 -defaultsOSRD
+preplace inst axi_vip_3 -pg 1 -lvl 3 -x 1030 -y 70 -defaultsOSRD
+preplace inst axi_vip_4 -pg 1 -lvl 3 -x 1030 -y 530 -defaultsOSRD
+preplace inst axi_vip_5 -pg 1 -lvl 3 -x 1030 -y 770 -defaultsOSRD
+preplace inst axi_vip_ctrl_userpf -pg 1 -lvl 3 -x 1030 -y 1170 -defaultsOSRD
+preplace inst axi_vip_hpm0fpd -pg 1 -lvl 2 -x 770 -y 930 -defaultsOSRD
+preplace inst debug_bridge_xsdbm -pg 1 -lvl 5 -x 1640 -y 1590 -defaultsOSRD
+preplace inst interconnect_axifull_1_user_slr1 -pg 1 -lvl 4 -x 1340 -y 350 -defaultsOSRD
+preplace inst interconnect_axifull_2_user_slr1 -pg 1 -lvl 4 -x 1340 -y 130 -defaultsOSRD
+preplace inst interconnect_axilite_user_slr1 -pg 1 -lvl 4 -x 1340 -y 1230 -defaultsOSRD
+preplace inst interrupt_concat -pg 1 -lvl 5 -x 1640 -y 1370 -defaultsOSRD
+preplace inst reset_controllers -pg 1 -lvl 1 -x 340 -y 1330 -defaultsOSRD
+preplace netloc ARESETN_1 1 1 4 NJ 1260 NJ 1260 1190 1100 1500J
+preplace netloc M01_ACLK_1 1 0 5 20 1010 650 1010 870 140 1180 10 1490
+preplace netloc bscanid_en_1 1 0 5 NJ 1480 NJ 1480 NJ 1480 NJ 1480 NJ
+preplace netloc capture_1 1 0 5 NJ 1500 NJ 1500 NJ 1500 NJ 1500 NJ
+preplace netloc clkwiz_kernel3_clk_out_1 1 0 1 NJ 1270
+preplace netloc clkwiz_kernel4_clk_out_1 1 0 1 NJ 1290
+preplace netloc clkwiz_kernel5_clk_out_1 1 0 1 NJ 1310
+preplace netloc clkwiz_kernel6_clk_out_1 1 0 1 NJ 1330
+preplace netloc dcm_locked_1 1 0 1 NJ 1370
+preplace netloc dcm_locked_3 1 0 1 NJ 1250
+preplace netloc debug_bridge_xsdbm_S_BSCAN_tdo 1 4 2 1500 1780 NJ
+preplace netloc drck_1 1 0 5 NJ 1520 NJ 1520 NJ 1520 NJ 1520 NJ
+preplace netloc expanded_resets_interconnect_aresetn1 1 1 2 670J 1250 870
+preplace netloc ext_reset_in_1 1 0 1 NJ 1430
+preplace netloc interrupt_concat_xlconcat_interrupt_dout 1 5 1 NJ 1370
+preplace netloc logic_reset_op_Res_1 1 0 1 NJ 1410
+preplace netloc reset_1 1 0 5 NJ 1540 NJ 1540 NJ 1540 NJ 1540 NJ
+preplace netloc reset_controllers_interconnect_aresetn 1 1 4 660 1020 880 150 1190 470 1500
+preplace netloc runtest_1 1 0 5 NJ 1560 NJ 1560 NJ 1560 NJ 1560 NJ
+preplace netloc sel_1 1 0 5 NJ 1580 NJ 1580 NJ 1580 NJ 1580 NJ
+preplace netloc shift_1 1 0 5 NJ 1600 NJ 1600 NJ 1600 NJ 1600 NJ
+preplace netloc slowest_sync_clk_1 1 0 5 30 1170 NJ 1170 880 1250 1180 1110 1490
+preplace netloc slowest_sync_clk_3 1 0 1 NJ 1350
+preplace netloc tck_1 1 0 5 NJ 1620 NJ 1620 NJ 1620 NJ 1620 NJ
+preplace netloc tdi_1 1 0 5 NJ 1640 NJ 1640 NJ 1640 NJ 1640 NJ
+preplace netloc tms_1 1 0 5 NJ 1680 NJ 1680 NJ 1680 NJ 1680 NJ
+preplace netloc update_1 1 0 5 NJ 1700 NJ 1700 NJ 1700 NJ 1700 NJ
+preplace netloc axi_interconnect_0_M00_AXI1 1 4 1 N 590
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 N 830
+preplace netloc axi_mmu_0_M_AXI 1 5 1 NJ 150
+preplace netloc axi_mmu_2_M_AXI 1 5 1 NJ 370
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 990
+preplace netloc axi_mmu_4_M_AXI 1 5 1 NJ 610
+preplace netloc axi_mmu_5_M_AXI 1 5 1 NJ 850
+preplace netloc axi_vip_1_M_AXI 1 2 1 N 930
+preplace netloc axi_vip_2_M_AXI 1 3 1 N 290
+preplace netloc axi_vip_3_M_AXI 1 3 1 N 70
+preplace netloc axi_vip_4_M_AXI 1 3 1 N 530
+preplace netloc axi_vip_5_M_AXI 1 3 1 N 770
+preplace netloc axi_vip_ctrl_userpf_M_AXI 1 3 1 N 1170
+preplace netloc interconnect_axifull_1_user_slr1_M00_AXI 1 4 1 N 350
+preplace netloc interconnect_axifull_2_user_slr1_M00_AXI 1 4 1 N 130
+preplace netloc interconnect_axilite_user_M00_AXI 1 4 1 N 1230
+preplace netloc regslice_control_userpf_M_AXI_1 1 0 3 NJ 1150 NJ 1150 NJ
+preplace netloc regslice_data_hpm0fpd_M_AXI1_1 1 0 2 NJ 910 NJ
+preplace netloc axi_register_slice_hpm0fpd_M_AXI 1 4 1 N 1010
+levelinfo -pg 1 0 340 770 1030 1340 1640 1800
+pagesize -pg 1 -db -bbox -sgen -280 0 2150 1800
+"
+}
+

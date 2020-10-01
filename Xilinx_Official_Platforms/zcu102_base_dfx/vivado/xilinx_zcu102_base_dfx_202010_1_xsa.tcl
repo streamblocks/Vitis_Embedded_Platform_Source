@@ -14,7 +14,7 @@
 # limitations under the License.
 # -------------------------------------------------------------------------
 puts "INFO: (Xilinx Acceleration Development Board Reference Design) creating emulation project and constructing BD"
-source create_emu_design.tcl
+#source create_emu_design.tcl
 
 # Project
 puts "INFO: (Xilinx Acceleration Development Board Reference Design) creating project and constructing BD"
@@ -26,11 +26,11 @@ source run_synth.tcl
 
 # Implementation
 puts "INFO: (Xilinx Acceleration Development Board Reference Design) launching implementation"
-source run_impl.tcl
+#source run_impl.tcl
 
 # XSA
 puts "INFO: (Xilinx Acceleration Development Board Reference Design) opening implementation and writing DSA"
-source write_xsa.tcl
+#source write_xsa.tcl
 
 ##### write bitfiles
 ####puts "INFO: (Xilinx Acceleration Development Board Reference Design) opening implementation and writing bitfiles"

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu9eg-ffvb1156-2-e" LaunchTime="1601492829">
+  <File Type="VDS-TIMINGSUMMARY" Name="pfm_top_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="pfm_top_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="pfm_top_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="pfm_top_wrapper_utilization_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="pfm_top_wrapper_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="pfm_top_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="pfm_top_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="pfm_top_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="pfm_top_wrapper_drc_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/pfm_top/pfm_top.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/pfm_top/hdl/pfm_top_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pfm_top_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/static_impl_early.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/constraints/static_impl_early.xdc"/>
+        <Attr Name="ImportTime" Val="1601470732"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ProcessingOrder" Val="EARLY"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/dynamic_impl.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/constraints/dynamic_impl.xdc"/>
+        <Attr Name="ImportTime" Val="1601470732"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_gpio_null_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_intc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_18"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_mmu_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_clkwiz_sysclks_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_vip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_mmu_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_vip_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_register_slice_hpm0fpd_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_vip_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_mmu_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_control_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_psreset_regslice_data_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_204d_bsip_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_vip_data_m00_axi_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_regslice_control_userpf_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_mmu_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_21"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_19"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_20"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_204d_bs_switch_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_psreset_gate_pr_kernel4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_ctrl_userpf_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_22"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_axi_vip_hpm0fpd_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_debug_bridge_xsdbm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_debug_bridge_xvc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_ebbe_xsdbm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_psreset_ctrlclk_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_ebbe_lut_buffer_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_regslice_ddrmem_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_dynamic_s00_regslice_23"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_register_slice_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_204d_axi_jtag_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_204d_bs_mux_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_axi_register_slice_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_psreset_regslice_ctrl_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_204d_bs_switch_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_regslice_data_periph_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_gate_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="pfm_top_regslice_ddrmem_3_0"/>
+</GenRun>
